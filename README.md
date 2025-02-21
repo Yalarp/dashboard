@@ -34,20 +34,22 @@ This project is a full-stack web-based Geographic Information System (GIS) platf
 
 2.  **Navigate to the project directory:**
     ```bash
+   
     cd GIS_dashboard
+    npm install
+    npm run start
     ```
 
 3.  **Install server dependencies:**
     ```bash
-    cd server
+    cd GIS_dashboard
+    cd backend
     npm install
+    nodemon server.js
+   
     ```
 
-4.  **Install client dependencies:**
-    ```bash
-    cd client
-    npm install
-    ```
+
 
 5.  **Configure Environment Variables:** Create `.env` files in both the `server` and `client` directories and add the necessary environment variables (e.g., database connection string, API keys).  See `.env.example` files if provided for the structure.
 
