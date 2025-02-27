@@ -10,7 +10,7 @@ import './MyMap.css'
 const MyMap = () => {
   const center = [20.5937, 78.9629];  // Central point of Maharashtra
   const zoom = 7;
-
+//working
   const [geodata, setGeodata] = useState(null);
   const [map, setMap] = useState(null);
   const [position, setPosition] = useState(map ? map.getCenter() : { lat: center[0], lng: center[1] });
